@@ -1,7 +1,11 @@
 import React from 'react';
 import MovieItem from './MovieItem';
 //serve semplicemente per inscatolare quello che avevamo già fatto
-function MovieList(props){
+
+export function MovieList(props){
+    if (!props.movies) {
+        return null;
+    }
     return(
         <div className="row">
             {
@@ -11,4 +15,4 @@ function MovieList(props){
             }
         </div>
     )}
-export default MovieList;
+// export default MovieList;

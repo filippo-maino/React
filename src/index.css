@@ -5,9 +5,15 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  padding-top: 48px; /*per staccare il body dalla navbar*/
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+#favoriteMoviesTitle{
+  padding-top: 15px;
+  padding-bottom: 15px; /*bootstrap ragiona a multipli di 15*/
 }
