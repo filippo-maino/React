@@ -1,0 +1,28 @@
+.my-nav{
+    width: 100%;
+    height: 50px;
+    background-color: rgb(26, 143, 221);
+    padding: 15px;
+}
+
+.my-nav a{
+    display: inline;
+    color:white;
+    text-align: center;
+    
+    font-size: 18px;
+
+}
+
+.my-nav a:hover{
+    cursor: pointer;
+    background-color: white;
+    color: rgb(26, 143, 221);
+}
+
+/*:active è uno stato predefinito , .active è una classe che creo io*/
+
+/* .nav p.active{     cursor: pointer;
+    background-color: white;
+    color: rgb(26, 143, 221);
+} */

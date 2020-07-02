@@ -15,4 +15,4 @@ export function MovieList(props){
             }
         </div>
     )}
-// export default MovieList;
+export default MovieList;
